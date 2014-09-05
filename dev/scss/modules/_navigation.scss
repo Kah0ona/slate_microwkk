@@ -63,7 +63,8 @@
 // ----- List item ----- //
 
 .Navigation-listItem {
-  display: inline;
+  display: block;
+  float: left;
   &:first-of-type {
     margin-left: 0;
   }
@@ -98,7 +99,9 @@
   font-size: 17px;
   font-weight: 200;
   border-bottom: 2px solid #8cc63f;
-  padding: 0 15px;
+  padding: 12px 15px;
+
+  display: block;
 
   -webkit-transition:all 0.2s ease;
   -moz-transition:all 0.2s ease;
@@ -123,6 +126,7 @@
 
 .Navigation-list {
     display: block;
+	margin: 0px 0px;
 }
 
 //---------------------------------------
