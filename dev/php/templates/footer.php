@@ -1,5 +1,5 @@
-	<div class="Footer">
-		<div class="u-gridContainer">
+	<div class="Footer No-Padding">
+		<div class="u-gridContainer No-Padding">
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 			<div class="Footer-inner u-gridRow">
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
@@ -9,12 +9,14 @@
 	</div>
 
 
-	<div class="Socket">
-		<div class="u-gridContainer">
-			<!-- Copyright info -->
-			<p >&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> 
-			</p>
-		</div>
+	<div class="Socket No-Padding">
+			<div class="u-gridContainer No-Padding">
+				<div class="Socket-Pwrapper">
+					<!-- Copyright info -->
+					<p >&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> 
+					</p>
+				</div>
+			</div>
 	</div>
 
   <!-- Load jquery from google CDN if possible, with fallback to cdnjs -->
@@ -30,6 +32,8 @@
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/nav-dropdown.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/prepend-svg.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/google-maps.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.bxslider.start.js"></script>
   <script src="http://localhost:35729/livereload.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.0/html-inspector.js"></script>
   <script>HTMLInspector.inspect();</script>
@@ -40,5 +44,7 @@
 
 	<!-- Wordpress footer -->
 	<?php wp_footer(); ?>
+	
+	</div><!-- wrapperAll omvat alles -->
 	</body>
 </html>

@@ -32,6 +32,7 @@
 
     <!-- build:remove:compressed -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+
     <!-- /build -->
 
     <!-- Wordpress head function -->
@@ -40,15 +41,20 @@
 
   </head>
   <body <?php body_class(); ?> >
-    <header class="u-gridContainer">
-        <!-- Banner -->
-        <div class="Header-Banner">
-            <p class="Header-Banner-Text">Al duizend stuks geplaatst</p>
-            <img class="Header-Banner-Logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"/>
-            <img class="Header-Banner-Achtergrond" src="<?php echo get_stylesheet_directory_uri(); ?>/img/Header-placeholder.jpg"/>
-            <!-- Main navigation -->
-            <?php include 'includes/navigation.php'; ?>
-        </div>
-    </header>
+     <div class="wrapperAll u-gridContainer No-Padding" >   
+        <header class="u-gridContainer No-Padding">
+            <!-- Banner -->
+            <div class="Header-Banner"> 
+                <p class="Header-Banner-Text">Al duizend stuks geplaatst</p>
+                <img class="Header-Banner-Logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"/>
+                <div class="Slider">
+                    <img class="Header-Banner-Achtergrond"src="<?php echo get_stylesheet_directory_uri(); ?>/img/Header-placeholder.jpg" >
+                    <img class="Header-Banner-Achtergrond"src="<?php echo get_stylesheet_directory_uri(); ?>/img/asd.jpg" >
+                    
+                </div>
+                <!-- Main navigation -->
+                <?php include 'includes/navigation.php'; ?>
+            </div>
+        </header>
 
  

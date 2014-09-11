@@ -20,7 +20,13 @@ Template Name: Page w/ sidebar on right
 						</article>
 					<?php endwhile; endif; ?>
 				</div>
-				<div class="u-gridCol4"	>
+
+				<div class="u-gridCol4 Content-right"	>
+				<div>
+					<h2>Heeft u vragen?</h2>
+					<button><a title="contact" href="http://microwkk.lijktmeduidelijk.nl/contact/">Neem contact op</a></button>
+				</div>
+
 					<?php get_sidebar(); ?>
 				</div>
 			</div>

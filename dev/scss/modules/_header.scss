@@ -78,15 +78,23 @@
   position: relative;
 }
 .Header-Banner-Text{
-  padding: 1% 0;
-  color: #8cc63f;
+  padding: 1.6%;
+  color: #fff;
+  margin: 0;
+  background: #414181;
 }
 .Header-Banner-Achtergrond{
   width: 100%;
   display: block;
+
+  box-shadow:0px 0 75px -18px rgba(0, 0, 0, 0.5);
 }
 .Header-Banner-Logo{
   position:absolute;
-  right: 0;
-  top: 64%;
+  top: 60%;
+  border-radius: 0 7px 7px 0;
+  padding: 8px 9px;
+  background-color:rgb(209, 209, 209);
+  box-shadow:0px 10px 15px -7px rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }

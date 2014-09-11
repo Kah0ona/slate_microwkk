@@ -38,6 +38,7 @@
   padding-left: $l-insideGutter;
   padding-right: $l-insideGutter;
 }
+$breakpoint: 580px;
 
 .u-gridRow {
   @include row();
@@ -50,9 +51,15 @@
 }
 .u-gridCol3 {
 	@include span-columns(3);
+  @media screen and (max-width: $breakpoint) {
+    @include span-columns(12);
+  }
 }
 .u-gridCol4 {
 	@include span-columns(4);
+  @media screen and (max-width: $breakpoint) {
+    @include span-columns(12);
+  }
 }
 .u-gridCol5 {
 	@include span-columns(5);

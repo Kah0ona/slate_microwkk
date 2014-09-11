@@ -6,7 +6,7 @@ Template Name: Page w/ sidebar on left
 
 <?php get_header(); ?>
 
-	<div class="u-gridContainer">
+	<div class="u-gridContainer base-Wrapper">
 		<?php get_sidebar(); ?>
 		<div>
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

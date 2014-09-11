@@ -10,24 +10,25 @@ html {
 }
 
 body {
-  background  : #fff;
+  background-image: url("../img/mooning.png");
   color       : $c-black;
-  font-family : $t-fontFamily;
+  font-family : Quicksand;
   font-size   : 100%;
   line-height : $t-lineHeight;
 }
+
 
 // -------------------------------------
 // Block Content
 // -------------------------------------
 
 p {
-  font-size: rem($t-fontSize);
+  font-size: 16px;
+  color: #0C0C0C;
 }
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: $t-headerFontFamily;
   font-weight: bold;
 }
 
@@ -36,7 +37,7 @@ h1, %u-textH1 {
 }
 
 h2, %u-textH2 {
-  font-size: rem(35px);
+  font-size: rem(34px);
 }
 
 h3, %u-textH3 {

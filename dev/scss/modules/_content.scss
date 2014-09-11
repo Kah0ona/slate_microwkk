@@ -2,28 +2,60 @@
 
 }
 .Content-Style{
-	h2{
-		color:#8cc63f;
+	h2, h3{
+		color:#777779;
+		margin:0;
 	}
 
 	h5{
-		color:#c3c5f5;
+		color:#03A678;
 		margin: 5% 0 1% 0;
 	}
 	color: #000;
 	background-color: #fff;
-	border-bottom: 2px solid #8cc63f;
-	border-right: 2px solid #8cc63f;
-	border-left: 2px solid #8cc63f;
-	padding: 0 25px;
-	border-top: 2px solid #8cc63f;
+	//border-bottom: 1px solid #414181;
+	//border-right: 1px solid #414181;
+	//border-left: 1px solid #414181;
+	padding: 3%;
+	//border-top: 1px solid #414181;
 	margin-top: -2px;
+	box-shadow:0px 0 75px -18px rgba(0, 0, 0, 0.5);
+}
+.Content-right{
+	border-left: 1px solid #414181;
+	padding: 0 0 0 3%;
+	height:413px;
+	button{
+		background-color: #414181;
+		border:0;
+		color:#fff;
+		width:100%;
+		padding:10% 0;
+		margin: 16px 0 0 0;
+		box-shadow: 0px 10px 15px -7px rgba(0, 0, 0, 0.5);
+		a{
+			color: #fff;
+			text-decoration: none;
+		}	
+	}
+	button:hover{
+		background-color:#fff;
+		border: 2px solid #414181;
+		a{
+			color:#414181;
+		}
+	}
 }
 
 //---- IMG VAST -----//
+
+	
 .Home-Img1{
-		width: 100%;
+		width: 50%;
 		height: 50%;
+		float:right;
+		border: 1px solid #A8A6A6;
+		
 }
 .WatisMicro-WKK-Img1{
 	float: right;
@@ -83,6 +115,10 @@
 	height:50%;
 	display: block;
 	margin: 0 auto;
+	float:right;
+	border: 1px solid #A8A6A6;
+	box-shadow: 0px 10px 15px -7px rgba(0, 0, 0, 0.5);
+
 }
 .BesparingConsument-Img1{
 	width: 60%;
