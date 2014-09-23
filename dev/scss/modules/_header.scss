@@ -91,10 +91,53 @@
 }
 .Header-Banner-Logo{
   position:absolute;
-  top: 60%;
+  bottom:50px;
   border-radius: 0 7px 7px 0;
   padding: 8px 9px;
   background-color:rgb(209, 209, 209);
   box-shadow:0px 10px 15px -7px rgba(0, 0, 0, 0.5);
   z-index: 100;
+}
+
+.Slider {
+  visibility: hidden;
+}
+@media all and (max-width: 1040px) {  
+ h2{
+  font-size: 30px;
+ }
+}
+@media all and (max-width: 957px) { 
+   h2{
+  font-size: 20px;
+ }
+}
+@media screen and (max-width: 993px) {
+  .Header-Banner-Logo{
+    bottom: 90px;
+  }
+  .Navigation-link{
+    padding: 5px 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+.Header-Banner-Logo{
+      bottom: 50px;
+  }
+}
+@media all and (min-width: 736px){
+  .Header-Banner-Logo {
+    bottom: 8px;
+    width: 50%;
+  }
+  .Navigation-link{
+  padding: 5px 14px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .Header-Banner-Logo{
+    bottom: 6px;
+    width: 50%;
+  }
+
 }

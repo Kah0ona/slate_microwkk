@@ -44,17 +44,30 @@
      <div class="wrapperAll u-gridContainer No-Padding" >   
         <header class="u-gridContainer No-Padding">
             <!-- Banner -->
+
             <div class="Header-Banner"> 
-                <p class="Header-Banner-Text">Al duizend stuks geplaatst</p>
                 <img class="Header-Banner-Logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png"/>
+                <div class="u-cf">
+                    <p class="Header-Banner-Text">Al duizend stuks geplaatst</p>
+                    <div class="icon-place" style="float:right">
+                             <a class="Navigation-menuToggle" id="js-navCollapse">
+                                <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                                    <use xlink:href="#icon-menu2"></use>
+                                </svg>
+                            </a>
+                    </div>
+                </div>
                 <div class="Slider">
                     <img class="Header-Banner-Achtergrond"src="<?php echo get_stylesheet_directory_uri(); ?>/img/Header-placeholder.jpg" >
                     <img class="Header-Banner-Achtergrond"src="<?php echo get_stylesheet_directory_uri(); ?>/img/asd.jpg" >
                     
                 </div>
-                <!-- Main navigation -->
-                <?php include 'includes/navigation.php'; ?>
+                
             </div>
+            <!-- Main navigation -->
+
+            <?php include 'includes/navigation.php'; ?>
+
         </header>
 
  

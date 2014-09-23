@@ -16,6 +16,10 @@ jQuery(document).ready(function($) {
     hideControlOnEnd: true,
     touchEnabled: false,
     pager: false,
-    controls: false
+    controls: false,
+    onSliderLoad: function() {
+      $('.Slider').css('visibility', 'visible');
+
+    }
   });
 });

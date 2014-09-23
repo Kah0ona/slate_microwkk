@@ -24,13 +24,13 @@ Template Name: Page w/ sidebar on right
 				<div class="u-gridCol4 Content-right"	>
 				<div>
 					<h2>Heeft u vragen?</h2>
-					<button><a title="contact" href="http://microwkk.lijktmeduidelijk.nl/contact/">Neem contact op</a></button>
+					<a class="button-click" title="contact" href="http://microwkk.lijktmeduidelijk.nl/contact/">Neem contact op</a>
 				</div>
 
 					<?php get_sidebar(); ?>
 				</div>
 			</div>
-		</div>
+		</div> 
 	</div>
 
 <?php get_footer(); ?>

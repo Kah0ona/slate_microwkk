@@ -25,25 +25,23 @@
 	border-left: 1px solid #414181;
 	padding: 0 0 0 3%;
 	height:413px;
-	button{
+	.button-click{
 		background-color: #414181;
 		border:0;
 		color:#fff;
+		text-decoration: none;
 		width:100%;
 		padding:10% 0;
 		margin: 16px 0 0 0;
 		box-shadow: 0px 10px 15px -7px rgba(0, 0, 0, 0.5);
-		a{
-			color: #fff;
-			text-decoration: none;
-		}	
+		text-decoration: none;
+		display: block;
+		text-align: center;
 	}
-	button:hover{
+	.button-click:hover{
+		color:#414181;
 		background-color:#fff;
 		border: 2px solid #414181;
-		a{
-			color:#414181;
-		}
 	}
 }
 
